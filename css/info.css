@@ -1,0 +1,20 @@
+.info {
+}
+@media screen and (min-width: 1024px) {
+  .info {
+    padding: 5rem 0;
+  }
+  .info .list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .info .item {
+    width: 30%;
+  }
+  .info .img {
+    height: 33rem;
+    object-fit: contain;
+    margin-bottom: 0;
+  }
+}
